@@ -1,0 +1,26 @@
+{
+    "name": "Mapa-de-Calor-do-Sinal-WiFi",
+    "version": "0.1.0",
+    "main": "simpleheat.js",
+    "scripts": {
+        "start": "node server.js",
+        "test": "eslint simpleheat.js"
+    },
+    "devDependencies": {
+        "eslint": "^3.13.1",
+        "eslint-config-mourner": "^2.0.1"
+    },
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "wireless-tools": "^0.19.0"
+    },
+    "eslintConfig": {
+        "extends": "mourner",
+        "rules": {
+            "new-cap": 0,
+            "consistent-return": 0
+        }
+    },
+    "license": "BSD-2-Clause"
+}
